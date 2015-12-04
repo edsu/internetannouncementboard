@@ -40,7 +40,13 @@ html = """<!doctype html>
 
 %s 
 
+<p>
+This was a waste of time while I should have been writing a final paper for my
+class about web archiving.
+</p>
+
 </div>
+
 
 </body>
 </html>
