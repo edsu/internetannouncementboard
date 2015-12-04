@@ -15,7 +15,7 @@ for filename in files:
     if last_size is not None and last_size == size:
         os.remove(filename)
     else:
-        images_html += '<div><img src="%s"></div>\n' % filename
+        images_html += '<div><img src="%s"></div><br>\n' % filename
     last_size = size
 
 html = """<!doctype html>
@@ -28,11 +28,16 @@ html = """<!doctype html>
 <body>
 <div class="container">
 
+<div class="row">
+
+<div class="col-lg-offset-3 col-lg-6 text-center">
+
 <h1>internetannouncementboard archive</h1>
 
 %s 
 
 </div>
+
 </body>
 </html>
 """ % images_html
