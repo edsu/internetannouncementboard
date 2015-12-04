@@ -12,13 +12,13 @@ files.sort()
 for filename in files:
     if not filename.endswith('.png'):
         continue
-    t = datetime.datetime.fromtimestamp(int(filename.strip(".png"))/1000)
-    t = t.strftime("%H:%M:%s")
+    t = datetime.datetime.fromtimestamp(int(filename.strip(".png"))/1000 - 1800)
+    t = t.strftime("%H:%M")
     size = os.path.getsize(filename)
     if last_size is not None and last_size == size:
         os.remove(filename)
     else:
-        images_html += '<div><img src="%s"><br><span>%s</span></div>\n' % (filename, t)
+        images_html += '<div><img src="%s"><br><span>%s</span></div><br>\n' % (filename, t)
     last_size = size
 
 html = """<!doctype html>
