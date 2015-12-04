@@ -32,7 +32,8 @@ html = """<!doctype html>
 
 <div class="col-lg-offset-3 col-lg-6 text-center">
 
-<h1>internetannouncementboard archive</h1>
+<h1>flaky<br>internetannouncementboard<br>archive</h1>
+<hr>
 
 %s 
 
