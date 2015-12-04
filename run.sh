@@ -2,7 +2,7 @@
 
 cd /home/ubuntu/internetannouncementboard;
 
-phantomjs --ssl-protocol=any fetch.js 2>/dev/null;
+phantomjs --ssl-protocol=any fetch.js > /dev/null;
 
 ./index.py;
 
