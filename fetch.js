@@ -3,8 +3,11 @@ page.settings.userAgent = 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/
 
 var filename = Date.now() + ".png";
 
-page.open('http://www.internetannouncementboard.com/', function(status) {
-    console.log(status);
-    page.render(filename);
-    phantom.exit();
-});
+page.open('http://www.internetannouncementboard.com/', function(status) {});
+
+function snap() {
+  page.render(filename);
+  phantom.exit();
+}
+
+setTimeout(snap, 10000);
