@@ -35,7 +35,7 @@ html = """<!doctype html>
 
 <div class="text-center">
 
-<h2>pathetic internetannouncementboard archive</h2>
+<h2>internetannouncementboard archive (sorta)</h2>
 <hr>
 
 %s 
