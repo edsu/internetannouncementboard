@@ -35,12 +35,12 @@ html = """<!doctype html>
 
 <div class="col-lg-offset-3 col-lg-6 text-center">
 
-<h1>pathetic internetannouncementboard archive</h1>
+<h2>pathetic internetannouncementboard archive</h2>
 <hr>
 
 %s 
 
-<p>
+<p style="border: thin solid black; background-color: #dddddd;">
 This was a waste of time while I should have been writing a final paper for my
 class about web archiving.
 </p>
