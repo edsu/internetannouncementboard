@@ -12,8 +12,7 @@ files.sort()
 for filename in files:
     if not filename.endswith('.png'):
         continue
-    print filename.strip(".png")
-    t = datetime.datetime.fromtimestamp(int(filename.strip(".png")))
+    t = datetime.datetime.fromtimestamp(int(filename.strip(".png"))/1000)
     t = t.strftime("%H:%M:%s")
     size = os.path.getsize(filename)
     if last_size is not None and last_size == size:
