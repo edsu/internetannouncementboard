@@ -40,9 +40,9 @@ html = """<!doctype html>
 
 %s 
 
-<p style="border: thin solid black; background-color: #dddddd;">
-This was a waste of time while I should have been writing a final paper for my
-class about web archiving.
+<p>
+<em>This was a waste of time while I should have been writing a final paper for
+my class about web archiving.</em>
 </p>
 
 </div>
