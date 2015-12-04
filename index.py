@@ -12,6 +12,7 @@ files.sort()
 for filename in files:
     if not filename.endswith('.png'):
         continue
+    print filename.strip(".png")
     t = datetime.datetime.fromtimestamp(int(filename.strip(".png")))
     t = t.strftime("%H:%M:%s")
     size = os.path.getsize(filename)
