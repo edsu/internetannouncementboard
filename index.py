@@ -33,7 +33,7 @@ html = """<!doctype html>
 
 <div class="row">
 
-<div class="col-lg-offset-3 col-lg-6 text-center">
+<div class="text-center">
 
 <h2>pathetic internetannouncementboard archive</h2>
 <hr>
