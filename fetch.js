@@ -11,4 +11,4 @@ function snap() {
   phantom.exit();
 }
 
-setTimeout(snap, 5000);
+setTimeout(snap, 10000);
