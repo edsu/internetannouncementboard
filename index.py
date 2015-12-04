@@ -3,10 +3,12 @@
 import os
 
 last_size = None
-
 images_html = ""
 
-for filename in os.listdir('.'):
+files = os.listdir('.')
+files.sort()
+
+for filename in files:
     if not filename.endswith('.png'):
         continue
     size = os.path.getsize(filename)
