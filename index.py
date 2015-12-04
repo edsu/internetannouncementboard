@@ -29,13 +29,13 @@ html = """<!doctype html>
 </head>
 
 <body>
-<div class="container">
+<div class="container-fluid">
 
 <div class="row">
 
 <div class="col-lg-offset-3 col-lg-6 text-center">
 
-<h1>flaky<br>internetannouncementboard<br>archive</h1>
+<h1>pathetic<br>internetannouncementboard<br>archive</h1>
 <hr>
 
 %s 
